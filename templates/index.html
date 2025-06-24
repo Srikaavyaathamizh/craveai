@@ -1,0 +1,25 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recommended Food Stalls</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+</head>
+<body>
+    <h2>Recommended Food Stalls</h2>
+
+    {% if stalls %}
+        {% for stall in stalls %}
+            <div class="stall">
+                <div class="stall-title">{{ stall.name }}</div>
+                <div class="stall-detail">Taste: {{ stall.taste }}</div>
+                <div class="stall-detail">Location: {{ stall.location }}</div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No stalls matched your preferences.</p>
+    {% endif %}
+</body>
+</html>

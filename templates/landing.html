@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crave.AI - Welcome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/landing.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Welcome to <span class="highlight">Crave.AI</span></h1>
+            <p>Discover the best local food stalls based on your taste and location.</p>
+            <a href="/user/login" class="btn">User Login</a>
+            <a href="/user/register" class="btn">User Register</a>
+        </div>
+        <div class="right">
+            <img src="/static/images/headerlogo.jpg" alt="Icon">
+            <a href="/owner/login" class="btn">Owner Login</a>
+            <a href="/owner/register" class="btn">Owner Register</a>
+        </div>
+    </div>
+</body>
+</html>

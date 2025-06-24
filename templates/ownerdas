@@ -1,0 +1,6 @@
+<h2>My Stalls</h2>
+<ul>
+  {% for stall in stalls %}
+    <li><strong>{{ stall.name }}</strong> - {{ stall.food_type }} - {{ stall.tastes }} ({{ stall.location }})</li>
+  {% endfor %}
+</ul>

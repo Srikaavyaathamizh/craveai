@@ -1,0 +1,51 @@
+user_id,food_name,taste,location
+1,idli,salty,Porur
+2,dosa,salty,Besant Nagar
+3,dosa,sweet,Porur
+4,chaat,sour,T Nagar
+5,bhel,sweet,T Nagar
+6,pani puri,sour,Mylapore
+7,idli,spicy,Mylapore
+8,vada,salty,Mylapore
+9,samosa,salty,Mylapore
+10,vada,salty,Adyar
+11,chaat,umami,Kodambakkam
+12,pani puri,salty,Anna Nagar
+13,samosa,salty,Velachery
+14,samosa,salty,Mylapore
+15,momo,umami,Anna Nagar
+16,bhel,spicy,Adyar
+17,idli,umami,Anna Nagar
+18,pav bhaji,salty,Porur
+19,jalebi,umami,Mylapore
+20,samosa,sour,Kodambakkam
+21,pav bhaji,sweet,Besant Nagar
+22,samosa,spicy,Mylapore
+23,jalebi,sweet,Adyar
+24,samosa,spicy,Kodambakkam
+25,bhel,sweet,Mylapore
+26,idli,salty,T Nagar
+27,pani puri,sweet,Kodambakkam
+28,pani puri,sour,Porur
+29,dosa,spicy,Porur
+30,dosa,sweet,Anna Nagar
+31,jalebi,sour,Kodambakkam
+32,bhel,sour,T Nagar
+33,pav bhaji,salty,Anna Nagar
+34,idli,umami,Anna Nagar
+35,chaat,sour,T Nagar
+36,momo,spicy,Anna Nagar
+37,bhel,spicy,Velachery
+38,momo,umami,T Nagar
+39,jalebi,salty,Kodambakkam
+40,bhel,salty,T Nagar
+41,dosa,sour,Kodambakkam
+42,idli,umami,Velachery
+43,idli,sweet,Porur
+44,pav bhaji,umami,T Nagar
+45,dosa,sour,T Nagar
+46,samosa,sour,T Nagar
+47,pav bhaji,umami,Porur
+48,samosa,salty,Besant Nagar
+49,jalebi,sweet,T Nagar
+50,bhel,salty,Porur

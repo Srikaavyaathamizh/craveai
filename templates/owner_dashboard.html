@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Owner Dashboard - Sarab.AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owner_dashboard.css') }}">
+</head>
+<body>
+    <h2>Welcome, {{ session.owner_name }}</h2>
+
+    <div class="dashboard-container">
+        {% if stalls %}
+            {% for stall in stalls %}
+                <div class="stall-card">
+                    <h3>{{ stall.name }}</h3>
+                    <p><strong>Food Type:</strong> {{ stall.food_type }}</p>
+                    <p><strong>Tastes:</strong> {{ stall.tastes | join(', ') }}</p>
+                    <p><strong>Location:</strong> {{ stall.location }}</p>
+                    <p><strong>Views:</strong> {{ stall.views }}</p>
+                    <p><strong>Rating:</strong> {{ stall.rating }}</p>
+                    <img src="{{ stall.image_url }}" alt="{{ stall.name }}">
+                </div>
+            {% endfor %}
+        {% else %}
+            <p style="text-align: center; font-size: 18px;">No stalls added yet.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

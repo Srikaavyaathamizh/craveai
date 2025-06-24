@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crave.AI – Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Crave.Ai</h1>
+        <form method="GET" action="/main">
+            <input type="text" name="q" placeholder="Search food, taste, or location..." value="{{ query or '' }}">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <section class="questions">
+        <h2>Want to update your taste preference?</h2>
+        <a class="update-btn" href="/taste">Update Preference</a>
+    </section>
+
+    <section class="recommendations">
+        <h2>Recommended Stalls</h2>
+        {% for stall in stalls %}
+<div class="stall-card">
+  <h3>{{ stall.name }}</h3>
+  <p><strong>Type:</strong> {{ stall.food_type }}</p>
+  <p><strong>Tastes:</strong> {{ stall.tastes }}</p>
+  <img src="{{ url_for('static', filename='images/' + stall.image_url) }}" width="150" alt="{{ stall.name }}">
+
+  {% if stall.location_name %}
+    <p>
+      📍 <strong>Location:</strong> {{ stall.location_name }} <br>
+    <iframe
+    width="100%"
+    height="200"
+    style="border:0; border-radius: 10px; margin-top: 10px;"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBkv4ZQWVD7buE-Bos0o6SG-fA1C5cQsyk&q={{ stall.location_name | urlencode }}">
+</iframe>
+
+
+        🗺️ View on Google Maps
+      </a>
+    </p>
+  {% endif %}
+</div>
+<hr>
+{% endfor %}
+
+    </section>
+</body>
+</html>

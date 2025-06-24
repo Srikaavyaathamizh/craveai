@@ -1,0 +1,37 @@
+name,food_type,tastes,image_url,location_name,owner_name,views,rating,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13
+shop1,Spicy Samosa,crunchy;milkshakes,logo.jpg,"Velachery (12.9791,80.2214)",sarab123,100,4.5,,,,,,
+shop 2,Hot Chilli Idli,umami;sweet,logo.jpg,"Egmore (13.0732,80.261)",thaksha,50,4.2,,,,,,
+shop 3,Masala Puri,tangy;cold,logo.jpg,"Royapettah (13.0522,80.2639)",saravanan,10,3.5,,,,,,
+shop 4,Spicy Bhel,sour;crunchy,logo.jpg,"Adyar (13.0064,80.257)",saravanan,20,3.6,,,,,,
+shop 5,Mirchi Bajji,spicy;cold,logo.jpg,"Velachery (12.9791,80.2214)",srikaavyaa,30,3.7,,,,,,
+shop 6,Jalebi,tangy;crunchy,logo.jpg,"Velachery (12.9791,80.2214)",thaksha,40,3.8,,,,,,
+shop 7,Gulab Jamun,sweet;umami,logo.jpg,"T. Nagar (13.0442,80.2337)",srikaavyaa,50,3.9,,,,,,
+shop 8,Ladoo,salty;sour,logo.jpg,"Ashok Nagar (13.0382,80.2138)",sarab123,60,3.5,,,,,,
+shop 9,Sweet Pongal,crunchy;tangy,logo.jpg,"Besant Nagar (12.9982,80.2644)",priya,70,3.6,,,,,,
+Sundal Station 10,Mysore Pak,sour;tangy,logo.jpg,"Kodambakkam (13.0492,80.2306)",thaksha,80,3.7,,,,,,
+shop11,Pani Puri,tangy;crunchy,logo.jpg,"Kodambakkam (13.0492,80.2306)",thaksha,90,3.8,,,,,,
+shop12,Tamarind Rice,spicy;sweet,logo.jpg,"Anna Nagar (13.086,80.21)",priya,100,3.9,,,,,,
+shop13,Sour Dosa,spicy;sweet,logo.jpg,"Ashok Nagar (13.0382,80.2138)",thaksha,110,3.5,,,,,,
+shop14,Pickled Lemon,sweet;spicy,logo.jpg,"Saidapet (13.0263,80.223)",srikaavyaa,120,3.6,,,,,,
+shop15,Amla Candy,sweet;cold,logo.jpg,"Parrys Corner (13.0934,80.287)",srikaavyaa,130,3.7,,,,,,
+shop16,Salted Chips,salty;crunchy,logo.jpg,"Guindy (13.0108,80.2205)",thaksha,140,3.8,,,,,,
+shop17,Murukku,umami;cold,logo.jpg,"Velachery (12.9791,80.2214)",thaksha,150,3.9,,,,,,
+shop18,Salt Biscuit,sweet;sour,logo.jpg,"Mylapore (13.0336,80.2697)",priya,160,3.5,,,,,,
+shop19,Khakhra,sweet;crunchy,logo.jpg,"Kodambakkam (13.0492,80.2306)",priya,170,3.6,,,,,,
+shop20,Salted Popcorn,spicy;cold,logo.jpg,"Velachery (12.9791,80.2214)",sarab123,180,3.7,,,,,,
+shop21,Vada Pav,salty;cold,logo.jpg,"Parrys Corner (13.0934,80.287)",priya,190,3.8,,,,,,
+shop22,Egg Roll,sweet;sour,logo.jpg,"Velachery (12.9791,80.2214)",thaksha,200,3.9,,,,,,
+shop23,Chicken Momos,cold;crunchy,logo.jpg,"Besant Nagar (12.9982,80.2644)",saravanan,210,3.5,,,,,,
+shop24,Savory Pancake,cold;crunchy,logo.jpg,"Velachery (12.9791,80.2214)",saravanan,220,3.6,,,,,,
+shop25,Kathi Roll,cold;sweet,logo.jpg,"Besant Nagar (12.9982,80.2644)",srikaavyaa,230,3.7,,,,,,
+shop26,Bitter Gourd Chips,spicy;sweet,logo.jpg,"Mylapore (13.0336,80.2697)",priya,240,3.8,,,,,,
+shop27,Neem Juice,tangy;crunchy,logo.jpg,"Adyar (13.0064,80.257)",priya,250,3.9,,,,,,
+shop28,Bitter Herbal Tea,sour;cold,logo.jpg,"Velachery (12.9791,80.2214)",priya,260,3.5,,,,,,
+shop29,Karela Fry,sour;crunchy,logo.jpg,"Guindy (13.0108,80.2205)",srikaavyaa,270,3.6,,,,,,
+shop30,Bitter Tonic,sweet;salty,logo.jpg,"Velachery (12.9791,80.2214)",priya,280,3.7,,,,,,
+sarab's snacks stall,"samosa,tea","spicy,hot",log.jpg,saveetha,sarab123
+thaksha,cakes,sweet,logo.jpg,poonamalle,sarab123
+thaksha food stall,brownie,sweet,logo.jpg,avadi,thaksha456
+ff,f,sweet,logo.jpg,f,sarab123
+srii,"laddoo,jalebi",sweet,logo.jpg,anna nagar,sri123
+sarab123,laddoo,sweet,logo.jpg,thandalam,sarab123

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Taste Preference</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/taste.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Choose Your Taste Preference</h2>
+        <form method="GET" action="/main">
+            <label for="taste">Taste:</label>
+            <select id="taste" name="q" required>
+                <option value="">-- Select Taste --</option>
+                <option value="Spicy">Spicy</option>
+                <option value="Sweet">Sweet</option>
+                <option value="Sour">Sour</option>
+                <option value="Salty">Salty</option>
+                <option value="Bitter">Bitter</option>
+                <option value="Umami">Umami</option>
+            </select>
+            <button type="submit">Find Stalls</button>
+        </form>
+    </div>
+</body>
+</html>

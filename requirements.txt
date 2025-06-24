@@ -1,0 +1,7 @@
+flask
+geopy
+pandas
+openpyxl
+fuzzywuzzy
+python-Levenshtein
+rapidfuzz

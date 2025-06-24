@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Stall Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stall_form.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Enter Your Stall Details</h2>
+        <form method="POST" action="/owner/add_stall">
+            <label>Stall/Owner Name:</label>
+            <input type="text" name="name" required><br>
+
+            <label>Food Type:</label>
+            <input type="text" name="food_type" required><br>
+
+            <label>Taste(s):</label>
+            <input type="text" name="tastes" placeholder="e.g., Spicy, Sweet" required><br>
+
+            <label>Image URL:</label>
+            <input type="text" name="image_url" required><br>
+
+            <label>Location Name:</label>
+            <input type="text" name="location" required><br>
+
+            <input type="text" name="owner_name" placeholder="Owner Name" required>
+
+
+            <button type="submit">Add Stall</button>
+        </form>
+    </div>
+       <div class="confirmation-container">
+        <h2>✅ Stall Added Successfully!</h2>
+        <div class="stall-card">
+            <h3>{{ name }}</h3>
+            <p><strong>Food Type:</strong> {{ food_type }}</p>
+            <p><strong>Taste(s):</strong> {{ tastes }}</p>
+            <p><strong>Location:</strong> {{ location }}</p>
+            <p><strong>Owner:</strong> {{ owner_name }}</p>
+            <img src="{{ image_url }}" alt="Stall Image" width="300px">
+        </div>
+        <br>
+        <a href="/owner/form"><button>Add Another Stall</button></a>
+    </div>
+</body>
+</html>
