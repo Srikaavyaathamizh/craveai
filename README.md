@@ -1,5 +1,5 @@
-# craveai
-# crave.AI – AI-Based Food Stall Recommendation System
+# CraveAI
+# Crave.AI – AI-Based Food Stall Recommendation System
 
 ##  Aim
 To develop an AI-powered web application that recommends food stalls based on user preferences like taste, food type, and location using natural language search, fuzzy logic, and machine learning.
